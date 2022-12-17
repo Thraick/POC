@@ -1,0 +1,26 @@
+[
+  {
+    "account": "gtt",
+    "number": "2315555",
+    "balance": "$2000",
+    "due date": "10th of January, 2023"
+  },
+  {
+    "account": "dsl",
+    "number": "2315555",
+    "balance": "$3000",
+    "due date": "20th of January, 2023"
+  },
+  {
+    "account": "landline",
+    "number": "2315555",
+    "balance": "$5000",
+    "due date": "30th of January, 2023"
+  },
+  {
+    "account": "dsl",
+    "number": "2316666",
+    "balance": "$5000",
+    "due date": "30th of January, 2023"
+  }
+]

@@ -1,0 +1,14 @@
+**/.DS_Store
+
+utils/model/local/twilio_bot.py
+main.jir
+mydatabase
+zreadme.md
+.main.dot
+.main.png
+train
+tfm_ner_model
+results
+modeloutput
+logoutput
+bi_enc_model

@@ -1,0 +1,75 @@
+[
+  {
+    "name": "number_confirmation",
+    "responses": ["Your account number is {{number}}, right?"],
+    "extracted_item":{
+      "number":[
+        "Sure. Can you confirm the telephone number for me?"
+      ]
+    },
+    "info_items":["number", "account", "balance", "due date"],
+    "info_file": "utils/data/state/accounts.json"
+  },
+  {
+    "name": "outstanding_balance",
+    "responses":[
+      "Your {{account}} account balance is {{balance}} and is due on the {{due date}}.",
+      "Your {{account}} balance is {{balance}} and is due on the {{due date}}."
+    ],
+    "info_items":["number","account","balance", "due date"],
+    "info_file": "utils/data/state/accounts.json"
+  },
+  {
+    "name": "number_of_account",
+    "responses": [
+      "I see you have {{num_account}} accounts with us. Do you want to check the balance for your {{first_account}} or {{last_account}}?",
+      "I found {{num_account}} accounts. Do you want to check the balance for the {{first_account}} or {{last_account}}"
+    ],
+    "info_items": ["number", "account"],
+    "info_file": ""
+  },
+  {
+    "name": "select_account",
+    "responses":[
+      "sorry, I don't understand. Which account would you like to check your balance for?"
+    ]
+  },
+  {
+    "name": "greetings",
+    "responses": [
+      "Hello, thank you for calling GTT. I'm Tina, GTT's virtual assistant. How may I help you today?"
+    ],
+    "extracted_item": {},
+    "info_items": []
+  },
+  {
+    "name": "goodbye",
+    "responses": ["Thank you for using POC, do have a great day."],
+    "extracted_item": {},
+    "info_items": []
+  },
+  {
+    "name": "invoice",
+    "responses":["Your invoice number is {{invoice_number}}, due date {{due_date}} and amount due is {{amount}}"],
+    "extracted_item":{
+      "month":[
+        "Which month would you like to check your invoice for?"
+      ]
+    },
+    "info_items":["month", "invoice_number", "due_date", "amount"],
+    "info_file": "utils/data/state/invoice.json"
+  },
+  {
+    "name": "payment_history",
+    "responses": [
+      "Your balance for {{month}} was {{amount}} and due on the {{due_date}}"
+    ],
+    "extracted_item":{
+      "month":[
+        "Which month would you like to check your history for?"
+      ]
+    },
+    "info_items":["month", "due_date", "amount"],
+    "info_file":"utils/data/state/payment_history.json"
+  }
+]

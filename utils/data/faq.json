@@ -1,0 +1,32 @@
+[
+    {
+        "question": "How do I activate roaming?",
+        "answer": "You can activate roaming by dialing *2372# and press 3"
+    },
+    {
+        "question": "How do I setup Voicemail?",
+        "answer": "You will have to contact our agents to setup voicemail"
+    },
+    {
+        "question": "How do I borrow money using the lend me service?",
+        "answer": "You can borrow money through lend me. By dialing *324# and pressing 3."
+    },
+    {
+        "question": "Where can I pay my bill?",
+        "answer": "You can pay your bill online"
+    },
+    {
+        "question": "How to change my wifi password?",
+        "answer": "You will have to contact our agent to change your wifi password"
+    },
+    {
+        "question": "How do I transfer my account to a different owner or address?",
+        "answer": "You will have to contact our agent to verify your account to make changes to your account"
+    },
+    {
+        "question": "How do I contact your agents",
+        "answer": "You can contact our agents by calling 234-2365 or 231-4367"
+    }
+]
+
+
