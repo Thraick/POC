@@ -110,7 +110,7 @@ node dialogue_state {
                 "name": here.name,
                 "response": visitor.response
             };
-            twilio.twilio_bot(visitor.response, visitor.phone_number, visitor.media);
+            twilio.twilio_bot(visitor.response, visitor.phone_number);
         }
     }
 

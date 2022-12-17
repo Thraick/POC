@@ -2,9 +2,9 @@ import unicodedata
 from jaseci.actions.live_actions import jaseci_action  # step 1
 from twilio.rest import Client
 
-account_sid = '' 
-auth_token = '' 
-client = Client(account_sid, auth_token) 
+// account_sid = '' 
+// auth_token = '' 
+// client = Client(account_sid, auth_token) 
 
 
 @jaseci_action(act_group=["twilio"], allow_remote=True)

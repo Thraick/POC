@@ -16,6 +16,7 @@
 Example 
 
 ## Faqs
+
 How do I setup Voicemail
 Where can I pay my bill
 How to change my wifi password
@@ -23,6 +24,7 @@ How do I transfer my account to a different owner or address?
 How do I activate roaming?
 
 ## Outstanding Balance
+
 I would like to check my outstanding Balance
 my number is 2315555
 I would like to check my gtt account
