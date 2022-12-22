@@ -1,45 +1,29 @@
 {
-    "greetings": [
-        "hello",
-        "hi",
-        "Hey",
-        "greetings",
-        "hey, how are you?"
-    ],
-    "faq_root": [
-        "How do I setup Voicemail",
-        "Where can I pay my bill",
-        "How to change my wifi password",
-        "How do I borrow money using the lend me service?",
-        "How do I transfer my account to a different owner or address?",
-        "How do I contact your agents",
-        "How do I activate roaming?"
-    ],
-    "number_confirmation": [
-        "I would like to check out my account balance",
-        "Hi, I am calling to find out my account balance",
-        "what is my outstanding balance",
-        "can you tell me my outstanding balance",
-        "when is my bill due",
-        "how much do I have to pay this month"
-    ],
-    "goodbye": [
-        "goodbye",
-        "bye",
-        "later"
-    ],
-    "payment_history": [
-        "I would like to check my payment for March",
-        "I would like to check my bill for December",
-        "I would like to see my bill for March",
-        "Please show me my bill",
-        "I would like to check my bill"
-    ],
-    "invoice": [
-        "I would like to check my invoice for March",
-        "Can you tell me my invoice for December?",
-        "Please show me my invoice for March",
-        "I would like to see my invoice"
-    ]
-
+  "greetings": ["hello", "hi", "Hey", "greetings", "hey, how are you?"],
+  "faq_root": [
+    "Can I change from one plan to another during the course of the month?",
+    "Where can I pay my bill?"
+  ],
+  "number_confirmation": [
+    "I would like to check out my account balance",
+    "Hi, I am calling to find out my account balance",
+    "what is my outstanding balance",
+    "can you tell me my outstanding balance",
+    "when is my bill due",
+    "how much do I have to pay this month"
+  ],
+  "goodbye": ["goodbye", "bye", "later"],
+  "payment_history": [
+    "I would like to check my payment for March",
+    "I would like to check my bill for December",
+    "I would like to see my bill for March",
+    "Please show me my bill",
+    "I would like to check my bill"
+  ],
+  "invoice": [
+    "I would like to check my invoice for March",
+    "Can you tell me my invoice for December?",
+    "Please show me my invoice for March",
+    "I would like to see my invoice"
+  ]
 }

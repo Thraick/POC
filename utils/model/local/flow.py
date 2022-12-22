@@ -184,7 +184,7 @@ def select_options(response: str, my_dict: dict, info_items:list):
     new_dict= my_dict.copy()
     new_dict["first_"+item]=lis1
     new_dict["last_"+item]=lis2
-    new_dict["num_"+item]= len(my_dict['info_json'])+1
+    new_dict["num_"+item]= len(my_dict['info_json'])
     print('new dict\n')
     print(response)
     print(new_dict)

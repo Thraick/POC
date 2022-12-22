@@ -428,7 +428,6 @@ node dialogue_root:dialogue_state {
         else{
             visitor.next_state = null;
         }
-        
     }
 }
 

@@ -4,7 +4,8 @@
     "responses": ["Your account number is {{number}}, right?"],
     "extracted_item":{
       "number":[
-        "Sure. Can you confirm the telephone number for me?"
+        "Sure. Can you confirm the telephone number for me?",
+        "Sure. Please confirm your number for me"
       ]
     },
     "info_items":["number", "account", "balance", "due date"],
@@ -37,7 +38,7 @@
   {
     "name": "greetings",
     "responses": [
-      "Hello, thank you for calling GTT. I'm Tina, GTT's virtual assistant. How may I help you today?"
+      "Hello, thank you for contacting GTT. How may I help you today?"
     ],
     "extracted_item": {},
     "info_items": []
